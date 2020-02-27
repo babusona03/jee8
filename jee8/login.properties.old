@@ -1,0 +1,20 @@
+#Tue Oct 22 11:47:31 IST 2019
+eclipselink.ddl-generation.output-mode=sql-script
+eclipselink.ddl-generation=drop-and-create-tables
+eclipselink.logging.level=FINE
+eclipselink.logging.exceptions=true
+eclipselink.jdbc.read-connections.shared=true
+eclipselink.application-location=/home/razor/Workshop/EclipseWorkspace/jee8
+eclipselink.jdbc.bind-parameters=false
+eclipselink.orm.throw.exceptions=true
+eclipselink.logging.timestamp=false
+eclipselink.weaving=false
+eclipselink.logging.thread=false
+eclipselink.logging.session=false
+javax.persistence.jdbc.user=MRCODER
+javax.persistence.jdbc.url=jdbc\:oracle\:thin\:@localhost\:1521\:XE
+eclipselink.drop-ddl-jdbc-file-name=dropDDL.sql
+eclipselink.create-ddl-jdbc-file-name=createDDL.sql
+javax.persistence.jdbc.driver=oracle.jdbc.OracleDriver
+javax.persistence.jdbc.password=password
+javax.persistence.validation.mode=NONE
