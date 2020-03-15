@@ -12,6 +12,8 @@ import javax.persistence.PrePersist;
 import javax.persistence.SequenceGenerator;
 //import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name="EMP")
@@ -24,6 +26,9 @@ public class Employee {
 	@Column(name = "EMP_ID")	
 	private Integer empId;
 	
+	
+	@Size(max = 10 , message="Length for name cannot exceed 10.")
+	@NotEmpty(message="Name cannot be left null.")
 	@Column(name="EMP_NAME")
 	private String empName;
 	

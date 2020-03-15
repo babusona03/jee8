@@ -12,6 +12,9 @@ import dev.ls.entity.Employee;
 public class EmployeeService {
 	
 	@PersistenceContext
+	//(name = persistence context name is not required since there is only a single persistence unit)
+	//otherwise could have provided a name property
+	// here, providing the persistence context name is redundant
 	EntityManager entityManager;
 	
 	public Employee createEmployee(Employee employee) {
