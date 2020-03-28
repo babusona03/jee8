@@ -1,4 +1,4 @@
-dev/ls/rest/EmployeeConfig.class
 dev/ls/entity/Employee.class
-dev/ls/rest/EmployeeRest.class
 dev/ls/service/EmployeeService.class
+dev/ls/rest/EmployeeConfig.class
+dev/ls/rest/EmployeeRest.class

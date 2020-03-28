@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"
+	  xmlns="http://www.w3.org/1999/xhtml"       
+      xmlns:h="http://xmlns.jcp.org/jsf/html"    
+      xmlns:f="http://xmlns.jcp.org/jsf/core"    
+      xmlns:a="http://xmlns.jcp.org/jsf/facelets">
+      
+      <h:head>
+      	<title>Log In Form</title>
+      </h:head>
+      <h:body>
+      
+      <center>      
+      <form action="http://localhost:8080/jee8/api/test/credentials/credentials" method="post">
+      	<P>
+      		User Name:	<INPUT type="text" name="username" tabindex="1"/>
+      		<br/>
+      		Password:	<INPUT type="password" name="password" tabindex="2"/>
+      		<br/>
+      		<INPUT type="submit" value="POST"/>
+      	</P>
+      </form>
+      </center>
+      
+      </h:body>
+</html>

@@ -27,7 +27,7 @@ public class EmployeeService {
 		return employee;
 	}
 	
-	public Employee findEmployeeById(int empId) {
+	public Employee findEmployeeById(Integer empId) {
 		return entityManager.find(Employee.class, empId);
 	}
 	
